@@ -1,12 +1,7 @@
 site_name: BigML Secure API Docs
 theme:
   name: material
-markdown_extensions:
-  - admonition
-  - codehilite
-  - toc:
-      permalink: true
-  - pymdownx.copybutton
+
 
 
 nav:
