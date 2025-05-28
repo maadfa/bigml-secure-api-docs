@@ -1,0 +1,12 @@
+site_name: BigML Secure API Guide
+theme:
+  name: material
+
+nav:
+  - Overview: index.md
+  - Authentication: authentication.md
+  - Credential Rotation: credential-rotation.md
+  - Access Control: access-control.md
+  - Deployment & Monitoring: deployment-monitoring.md
+  - Examples: examples.md
+  - FAQ: faq.md
