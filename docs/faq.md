@@ -1,9 +1,9 @@
 
----
 
-## 📝 7. `docs/faq.md` – FAQ
 
-```markdown
+##  – FAQ
+
+
 # Frequently Asked Questions (FAQ)
 
 ## Q: Does BigML support scoped or limited privilege API keys?

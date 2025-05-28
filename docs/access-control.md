@@ -1,9 +1,6 @@
 ##  Role-Based Access Control
 
-```markdown
-# Role-Based Access Control
-
-While BigML API keys grant access to resources, managing user roles and permissions at the account level is equally important.
+BigML API keys grant access to resources but  managing user roles and permissions at the account level is equally important.
 
 ## Recommendations
 

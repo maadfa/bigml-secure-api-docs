@@ -1,12 +1,7 @@
 
----
-
-## 📝 3. `docs/credential-rotation.md` – Credential Management & Rotation
-
-```markdown
 # Credential Management and Rotation
 
-Regularly rotating API credentials reduces the risk of compromised keys being abused.
+ Change API keys regularly to lower the risk of someone misusing them if they get exposed .or stolen.
 
 ## Recommended Practices
 
@@ -20,3 +15,4 @@ Regularly rotating API credentials reduces the risk of compromised keys being ab
 ```bash
 curl -X GET https://bigml.io/andromeda/api/andromeda \
  -H "Authorization: Bearer NEW_API_KEY"
+```

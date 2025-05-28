@@ -25,15 +25,20 @@ async function getModels() {
 }
 
 getModels().catch(console.error);
+```
 
 ## Rotating API Keys 
 
-// Step-by-step:
-// 1. Generate a new API key via BigML dashboard.
-// 2. Update environment secrets in your deployment pipeline.
-// 3. Redeploy your application using the new key.
-// 4. Revoke the old API key after confirming the new one works.
+ Step-by-step:
 
-console.log("Always keep old keys until new ones are verified.");
+  Generate a new API key via BigML dashboard.
+
+  Update environment secrets in your deployment pipeline.
+  
+  Redeploy your application using the new key.
+  
+  Delete or remove the old API key after confirming the new one works.
+
+
 
  

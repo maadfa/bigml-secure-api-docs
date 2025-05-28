@@ -1,6 +1,12 @@
 site_name: BigML Secure API Docs
 theme:
   name: material
+markdown_extensions:
+  - pymdownx.copybutton:
+      copy_button_selector: "div.highlight pre"
+      tooltip_text: "Copy to clipboard"
+      tooltip_duration: 1000
+
 
 nav:
   - Home: index.md
