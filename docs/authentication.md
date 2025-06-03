@@ -13,3 +13,5 @@ BigML API uses API keys to authenticate requests. It is essential to protect you
 
 ```http
 Authorization: Bearer YOUR_BIGML_API_KEY
+```
+
