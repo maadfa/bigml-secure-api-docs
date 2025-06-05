@@ -4,10 +4,10 @@ The BigML API uses special codes called API keys to check who is making a reques
 
 ## Best Practices
 
-- Never expose your secret API key in publicly accessible areas such as client-side code, GitHub repositories, or online forums.
-- Use environment variables or secure vaults to store keys in development and production envirnment
-- Implement multi-factor authentication (MFA) using external systems to secure your BigML account.
--  Only generate keys with permissions necessary for the task.
+- You should never expose your secret API key in publicly accessible areas such as client-side code, GitHub repositories, or online forums.
+- You should use environment variables or secure vaults to store keys in development and production envirnment
+- You should implement multi-factor authentication (MFA) using external systems to secure your BigML account.
+- You should only generate keys with permissions necessary for the task.
 
 ## Example: Using API Key in HTTP Header
 
