@@ -247,19 +247,6 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Credential Management
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -271,43 +258,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#recommended-practices" class="md-nav__link">
-    <span class="md-ellipsis">
-      Recommended Practices
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#example-testing-new-credentials-with-curl" class="md-nav__link">
-    <span class="md-ellipsis">
-      Example: Testing New Credentials with cURL
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -421,32 +371,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#recommended-practices" class="md-nav__link">
-    <span class="md-ellipsis">
-      Recommended Practices
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#example-testing-new-credentials-with-curl" class="md-nav__link">
-    <span class="md-ellipsis">
-      Example: Testing New Credentials with cURL
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -462,15 +386,15 @@
 
 
 <h1 id="credential-management-and-rotation">Credential Management and Rotation</h1>
-<p>Change API keys regularly to lower the risk of someone misusing them if they get exposed .or stolen.</p>
-<h2 id="recommended-practices">Recommended Practices</h2>
+<p>You should  regularly change your API keys to reduce the risk of misuse if they are ever leaked or stolen.</p>
+<h1 id="recommended-practices">Recommended Practices</h1>
 <ul>
 <li>Establish a key rotation schedule (e.g., every 60–90 days), even if no known issues have occurred.</li>
 <li>Delete old keys promptly after replacement.</li>
 <li>Automate rotation using CI/CD pipelines, secret management tools such as HashiCorp Vault or AWS Secrets Manager, or automation scripts.</li>
 <li>Securely notify your team when rotating keys and provide access through secure channels.</li>
 </ul>
-<h2 id="example-testing-new-credentials-with-curl">Example: Testing New Credentials with cURL</h2>
+<h1 id="example-testing-new-credentials-with-curl">Example: Testing New Credentials with cURL</h1>
 <pre><code class="language-bash">curl -X GET https://bigml.io/andromeda/api/andromeda \
  -H &quot;Authorization: Bearer NEW_API_KEY&quot;
 </code></pre>
