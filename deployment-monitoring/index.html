@@ -448,16 +448,17 @@
 <h2 id="best-practices">Best Practices</h2>
 <ul>
 <li>
-<p><strong>Versioning</strong>: Keep a record of all the model versions you have deployed in BigML. This makes it easy to go back to an older version if something goes wrong.</p>
+<p><strong>Versioning</strong>: You should keep a record of all the model versions you have deployed in BigML. This makes it easy to go back to an older version if something goes wrong.It's also helpful for understanding how your model has changed over time.</p>
 </li>
 <li>
-<p><strong>Performance Monitoring</strong>: : Regularly check how well the model is making predictions by using new data. This helps to spot if the model's accuracy is getting worse over time (called model drift).</p>
+<p><strong>Performance Monitoring</strong>: :If you are using model,keep checking if it is giving accurate predictions or not with passage of time.Over time, the data your model works with might change. When this happens, the model may start making mistakes or become less accurate. This is called model drift.Therefore,regularly check how well the model is making predictions by using new data. This helps to spot if the model's accuracy is getting worse over time (called model drift).</p>
 </li>
 <li>
-<p><strong>Logging</strong>: Keep a record of all API requests and the model’s prediction results. This helps in checking what happened (auditing) and fixing any issues (debugging).</p>
+<p><strong>Logging</strong>: Logging means saving a record of everything your system does when it uses the BigML API. This includes things like what data was sent to the model, what predictions the model gave, and when each request was made. These records are very helpful because they let you see exactly what happened at any time. If something goes wrong, you can look back at the logs to find the problem and fix it.This is called debugging.</p>
 </li>
 <li>
-<p><strong>Backup</strong>: Regularly export and back up critical models and datasets.</p>
+<p><strong>Backup</strong>: Regularly export and back up critical models and datasets.
+Backup means saving copies of your important models and datasets in a safe place. You should do this regularly.This helps to restore data when something goes wrong such as accidental deletion, a system error, or data loss.You can easily restore your models and data when needed by exporting and storing backups.</p>
 </li>
 </ul>
 <p>BigML supports both batch predictions and API-based predictions. Select the appropriate methods based on  needs of your application.</p>
